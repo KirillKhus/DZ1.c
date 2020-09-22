@@ -18,6 +18,7 @@ int main(void) {
 	int* x = (int*)calloc(sizeof(int), n-1);
 	start = n-1;
 	finish = n-1;
+	printf("\n");
 	printf("1) add element\n");
 	printf("2) delete\n");
 	printf("3) view queue\n");
